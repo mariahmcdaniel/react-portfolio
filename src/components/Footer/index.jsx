@@ -1,6 +1,8 @@
 import React from "react";
-import "./style.css"
-
+import "./style.css";
+import git from '../../images/git.png';
+import linked from '../../images/linked.png';
+import insta from '../../images/insta.png';
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -10,15 +12,15 @@ const Footer = () => {
       Find me on: 
       <a href="https://github.com/mariahmcdaniel"><img
           id='git'
-          src='/git.png'
+          src={git}
           alt='my github' /></a>
       <a href="https://www.linkedin.com/in/mariah-mcdaniel-607895251/"><img
-          id='linkedin'
+          id={linked}
           src='/linked.pn'
           alt='my linkedin' /></a>
       <a href="https://instagram.com/mar____iah?igshid=YmMyMTA2M2Y="><img
           id='insta'
-          src='/insta.png'
+          src={insta}
           alt='my instagram' /></a>
       {`Copyright © Mariah McDaniel ${year}`}
     </footer>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import me from '../images/me.png'
 
 export default function About() {
   return (
@@ -10,7 +11,7 @@ export default function About() {
       </p>
       <img
           id='myphoto'
-          src='/me.png'
+          src={me}
           alt='my photo' />
     </div>
   );

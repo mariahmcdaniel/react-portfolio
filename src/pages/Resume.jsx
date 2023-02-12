@@ -1,4 +1,17 @@
 import './style.css'
+import uncw from './../images/uncw';
+import uncc from './../images/UNCCboot';
+import sorbonne from './../images/sorbonne';
+import css from './../images/css3';
+import html from './../images/html';
+import js from './../images/js';
+import node from './../images/node';
+import wp from './../images/wp';
+import mysql from './../images/mysql';
+import ps from './../images/ps';
+import apollo from './../images/apollo';
+import react from './../images/react';
+import mongo from './../images/mongodb';
 
 const Resume = () => {
   return (
@@ -17,46 +30,46 @@ const Resume = () => {
       <div className="education">
         <h3 id="edu">Education</h3>
         <img
-          src={'/uncw.png'}
+          src={uncw}
           alt='UNCW' />
          <img
-          src={'/UNCCboot.png'}
+          src={uncc}
           alt='bootcamp' />
            <img
-          src={'/sorbonne.png'}
+          src={sorbonne}
           alt='sorbonne' />
       </div>
       <div className="proficiencies">
         <h3>Proficiencies</h3>
         <img
-          src={'/css3.png'}
+          src={css}
           alt='css' />
           <img
-          src={'/html.png'}
+          src={html}
           alt='html' />
           <img
-          src={'/js.png'}
+          src={js}
           alt='javascript' />
           <img
-          src={'/node.png'}
+          src={node}
           alt='nodejs' />
           <img
-          src={'/wp.png'}
+          src={wp}
           alt='wordpress' />
           <img
-          src={'/mysql.png'}
+          src={mysql}
           alt='mysql' />
           <img
-          src={'/ps.png'}
+          src={ps}
           alt='photoshop' />
           <img
-          src={'/apollo.png'}
+          src={apollo}
           alt='apollo' />
           <img
-          src={'/react.png'}
+          src={react}
           alt='react' />
           <img
-          src={'/mongo.png'}
+          src={mongo}
           alt='mongodb' />
       </div>
     </div>

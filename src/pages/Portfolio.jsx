@@ -1,5 +1,11 @@
 import React from 'react';
 import './style.css'
+import yaheard from './../images/yaheard.png';
+import simmer from './../images/simmer.png';
+import weather from './../images/weather.png';
+import planner from './../images/planner.png';
+import pw from './../images/pw.png';
+import note from './../images/note.png';
 
 function ProjectDisplay(){
 const data = [
@@ -7,7 +13,7 @@ const data = [
   id: 1,
   name: 'Ya-Heard',
   link: 'https://fathomless-woodland-16696.herokuapp.com/',
-  img: '/yaheard.png',
+  img: {yaheard},
   gitHub:'https://github.com/Simplerer/ya-heard',
 },
 
@@ -15,7 +21,7 @@ const data = [
   id: 2,
   name: 'Simmer-Down Secretary',
   link: 'https://mariahmcdaniel.github.io/simmer-down-secretary/',
-  img: '/simmer.png',
+  img: {simmer},
   gitHub:'https://github.com/mariahmcdaniel/simmer-down-secretary',
 },
 
@@ -23,7 +29,7 @@ const data = [
   id: 3,
   name: 'Weather Dashboard',
   link: 'https://mariahmcdaniel.github.io/five-day-forecast-dashboard/',
-  img: '/weather.png',
+  img: {weather},
   gitHub:'https://github.com/mariahmcdaniel/five-day-forecast-dashboard',
 },
 
@@ -31,7 +37,7 @@ const data = [
   id: 4,
   name: 'Hourly Day Planner',
   link: 'https://mariahmcdaniel.github.io/hourly-day-planner/',
-  img: '/planner.png',
+  img: {planner},
   gitHub:'https://github.com/mariahmcdaniel/hourly-day-planner',
 },
 
@@ -39,14 +45,14 @@ const data = [
   id: 5,
   name: 'Password Generator',
   link: 'https://mariahmcdaniel.github.io/random-password-generator/',
-  img: '/pw.png',
+  img: {pw},
   gitHub:'https://github.com/mariahmcdaniel/random-password-generator',
 },
 {
   id: 6,
   name: 'Note Taker App',
   link: 'https://hidden-fjord-54822.herokuapp.com/',
-  img: '/note.png',
+  img: {note},
   gitHub:'https://github.com/mariahmcdaniel/take-note',
 }
 ]
