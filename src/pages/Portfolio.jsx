@@ -50,9 +50,6 @@ const data = [
   gitHub:'https://github.com/mariahmcdaniel/take-note',
 }
 ]
-// const cardStyle = {
-//   width: '18rem',
-// };
 
 const projects = data.map(
   (project) => {
@@ -64,11 +61,11 @@ const projects = data.map(
           </a>
             <img
             className="card-img-bottom projectImg"
-            src={window.location.origin + `/images${project.img}`}
+            src={`/images${project.img}`}
             alt={project.name}/>
             <a href={project.gitHub}><img
             className="gitHubLink"
-            src={window.location.origin + `/images/git.png`}
+            src={`/images/git.png`}
             alt={project.name}/> Repository</a>
             
           </div>

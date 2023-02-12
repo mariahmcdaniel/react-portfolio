@@ -10,15 +10,15 @@ const Footer = () => {
       Find me on: 
       <a href="https://github.com/mariahmcdaniel"><img
           id='git'
-          src={window.location.origin + `/images/git.png`}
+          src={'/images/git.png'}
           alt='my github' /></a>
       <a href="https://www.linkedin.com/in/mariah-mcdaniel-607895251/"><img
           id='linkedin'
-          src={window.location.origin + `/images/linked.png`}
+          src={'/images/linked.pn'}
           alt='my linkedin' /></a>
       <a href="https://instagram.com/mar____iah?igshid=YmMyMTA2M2Y="><img
           id='insta'
-          src={window.location.origin + `/images/insta.png`}
+          src={'/images/insta.png'}
           alt='my instagram' /></a>
       {`Copyright © Mariah McDaniel ${year}`}
     </footer>

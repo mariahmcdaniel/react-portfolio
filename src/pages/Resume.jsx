@@ -17,46 +17,46 @@ const Resume = () => {
       <div className="education">
         <h3 id="edu">Education</h3>
         <img
-          src={window.location.origin + `/images/uncw.png`}
+          src={`/images/uncw.png`}
           alt='UNCW' />
          <img
-          src={window.location.origin + `/images/UNCCboot.png`}
+          src={`/images/UNCCboot.png`}
           alt='bootcamp' />
            <img
-          src={window.location.origin + `/images/sorbonne.png`}
+          src={`/images/sorbonne.png`}
           alt='sorbonne' />
       </div>
       <div className="proficiencies">
         <h3>Proficiencies</h3>
         <img
-          src={window.location.origin + `/images/css3.png`}
+          src={`/images/css3.png`}
           alt='css' />
           <img
-          src={window.location.origin + `/images/html.png`}
+          src={`/images/html.png`}
           alt='html' />
           <img
-          src={window.location.origin + `/images/js.png`}
+          src={`/images/js.png`}
           alt='javascript' />
           <img
-          src={window.location.origin + `/images/node.png`}
+          src={`/images/node.png`}
           alt='nodejs' />
           <img
-          src={window.location.origin + `/images/wp.png`}
+          src={`/images/wp.png`}
           alt='wordpress' />
           <img
-          src={window.location.origin + `/images/mysql.png`}
+          src={`/images/mysql.png`}
           alt='mysql' />
           <img
-          src={window.location.origin + `/images/ps.png`}
+          src={`/images/ps.png`}
           alt='photoshop' />
           <img
-          src={window.location.origin + `/images/apollo.png`}
+          src={`/images/apollo.png`}
           alt='apollo' />
           <img
-          src={window.location.origin + `/images/react.png`}
+          src={`/images/react.png`}
           alt='react' />
           <img
-          src={window.location.origin + `/images/mongo.png`}
+          src={`/images/mongo.png`}
           alt='mongodb' />
       </div>
     </div>

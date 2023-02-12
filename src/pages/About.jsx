@@ -10,7 +10,7 @@ export default function About() {
       </p>
       <img
           id='myphoto'
-          src={window.location.origin + `/images/me.png`}
+          src={'/images/me.png'}
           alt='my photo' />
     </div>
   );
