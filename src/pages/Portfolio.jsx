@@ -61,11 +61,11 @@ const projects = data.map(
           </a>
             <img
             className="card-img-bottom projectImg"
-            src={`/images${project.img}`}
+            src={project.img}
             alt={project.name}/>
             <a href={project.gitHub}><img
             className="gitHubLink"
-            src={`/images/git.png`}
+            src={'/git.png'}
             alt={project.name}/> Repository</a>
             
           </div>

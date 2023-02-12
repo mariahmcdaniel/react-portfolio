@@ -17,46 +17,46 @@ const Resume = () => {
       <div className="education">
         <h3 id="edu">Education</h3>
         <img
-          src={`/images/uncw.png`}
+          src={'/uncw.png'}
           alt='UNCW' />
          <img
-          src={`/images/UNCCboot.png`}
+          src={'/UNCCboot.png'}
           alt='bootcamp' />
            <img
-          src={`/images/sorbonne.png`}
+          src={'/sorbonne.png'}
           alt='sorbonne' />
       </div>
       <div className="proficiencies">
         <h3>Proficiencies</h3>
         <img
-          src={`/images/css3.png`}
+          src={'/css3.png'}
           alt='css' />
           <img
-          src={`/images/html.png`}
+          src={'/html.png'}
           alt='html' />
           <img
-          src={`/images/js.png`}
+          src={'/js.png'}
           alt='javascript' />
           <img
-          src={`/images/node.png`}
+          src={'/node.png'}
           alt='nodejs' />
           <img
-          src={`/images/wp.png`}
+          src={'/wp.png'}
           alt='wordpress' />
           <img
-          src={`/images/mysql.png`}
+          src={'/mysql.png'}
           alt='mysql' />
           <img
-          src={`/images/ps.png`}
+          src={'/ps.png'}
           alt='photoshop' />
           <img
-          src={`/images/apollo.png`}
+          src={'/apollo.png'}
           alt='apollo' />
           <img
-          src={`/images/react.png`}
+          src={'/react.png'}
           alt='react' />
           <img
-          src={`/images/mongo.png`}
+          src={'/mongo.png'}
           alt='mongodb' />
       </div>
     </div>
