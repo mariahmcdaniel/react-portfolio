@@ -1,0 +1,107 @@
+input, textarea {
+  margin: 30px;
+  display: flex;
+  align-items: center;
+}
+
+form {
+  background-image: linear-gradient(#EFFFCA, #f7fde8);
+  padding: 30px;
+}
+
+label {
+  text-align: right;
+    clear: both;
+    float:left;
+    margin-right:15px;
+}
+
+h1 {
+  margin: 40px;
+  color: #EFFFCA;
+}
+
+.contactCont {
+  margin: 75px;
+  margin-bottom: 200px;
+}
+
+#contMsg {
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  border: 2px dotted #778753;
+  padding: 10px;
+}
+
+#submitBtn {
+  border: 1.5px solid #778753;
+  background-color: #496a59;
+  color: #f7fde8
+}
+
+#thanks {
+  margin-top: 40px;
+  font-size:clamp(.7rem, 2.5vw, 1.2rem);
+  font-style: italic;
+}
+
+#intro {
+  font-size:clamp(.9rem, 4vw, 1.3rem);
+  border: 2px dotted #778753;
+  padding: 10px;
+}
+
+#myphoto {
+  margin: 80px;
+}
+
+h3 {
+  border: 2px dotted #778753;
+  padding: 10px;
+  margin-bottom: 40px;
+  font-size:clamp(1.2rem, 4vw, 1.4rem);
+}
+
+.education img {
+  margin-bottom: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#edu {
+  margin-top: 75px;
+}
+
+#resumeBtn {
+  padding: 10px;
+  background-color: #EFFFCA;
+}
+
+.proficiencies {
+  margin-bottom: 300px;
+}
+
+.proficiencies img {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#btnBorder {
+  margin-top: 50px;
+  padding: 50px;
+  border: 2px solid #778753;
+}
+
+.card a {
+  color: #98a871;
+}
+
+h5 {
+  font-size:clamp(1.2rem, 4vw, 1.4rem);
+  border: 2px dotted #778753;
+  padding: 10px;
+}
+.projectImg {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

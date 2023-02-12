@@ -67,3 +67,9 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+header {
+  border-bottom: solid 3px rgb(52, 100, 84);
+  background-image: linear-gradient(#f3feda, #e5fbb3);
+  padding: 50px;
+}

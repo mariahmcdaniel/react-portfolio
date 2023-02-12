@@ -1,35 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import React from "react";
+import "bootswatch/dist/solar/bootstrap.min.css";
+import './App.css';
+import PortfolioContainer from "./components/PortfolioContainer";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <div>
-        <h1>{import.meta.env.BASE_URL}</h1>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={`${import.meta.env.BASE_URL}/vite.svg`}className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <PortfolioContainer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -57,25 +57,35 @@ function Form() {
   };
 
   return (
-    <div>
-      <p>Hello {name}</p>
+    <div class="contactCont">
       <form className="form">
+        <div class="form-group">
+        <label for="email">Email:</label>
         <input
           value={email}
           name="email"
+          id="email"
           onChange={handleInputChange}
           type="email"
           placeholder="email"
         />
+        </div>
+        <div class="form-group">
+        <label for="name">Name:</label>
         <input
           value={name}
           name="name"
+          id="name"
           onChange={handleInputChange}
           type="text"
           placeholder="name"
         />
+        </div>
+        <div class="form-group">
+        <label for="message">Mesage:</label>
         <textarea
           value={message}
+          id="message"
           name="message"
           rows="2" 
           cols="30"
@@ -83,8 +93,10 @@ function Form() {
           type="message"
           placeholder="Type your message here"
         />
+        </div>
         <button type="button" id="submitBtn" onClick={handleFormSubmit}>Submit</button>
       </form>
+      <p id="thanks">Thanks {name}!</p>
       {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>

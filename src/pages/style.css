@@ -1,0 +1,67 @@
+
+#intro {
+  font-size:clamp(.9rem, 4vw, 1.3rem);
+  border: 2px dotted #778753;
+  padding: 10px;
+}
+
+#myphoto {
+  margin: 80px;
+}
+
+h3 {
+  border: 2px dotted #778753;
+  padding: 10px;
+  margin-bottom: 40px;
+  font-size:clamp(1.2rem, 4vw, 1.4rem);
+}
+
+.education img {
+  margin-bottom: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#edu {
+  margin-top: 75px;
+}
+
+#resumeBtn {
+  padding: 10px;
+  background-color: #EFFFCA;
+}
+
+.proficiencies {
+  margin-bottom: 300px;
+}
+
+.proficiencies img {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#btnBorder {
+  margin-top: 50px;
+  padding: 50px;
+  border: 2px solid #778753;
+}
+
+.card {
+  margin-top: 30px;
+}
+
+.card a {
+  color: #98a871;
+}
+
+h5 {
+  font-size:clamp(1.2rem, 4vw, 1.4rem);
+  border: 2px dotted #778753;
+  padding: 10px;
+}
+
+.projectImg {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
