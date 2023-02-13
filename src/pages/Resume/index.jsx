@@ -11,7 +11,7 @@ import mysql from './mysql.png';
 import ps from './ps.png';
 import apollo from './apollo.png';
 import react from './react.png';
-import mongo from './mongodb.png';
+import mongo from './mongo.png';
 
 const Resume = () => {
   return (
