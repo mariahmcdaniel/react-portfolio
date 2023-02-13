@@ -1,17 +1,17 @@
 import './style.css'
-import uncw from './uncw';
-import uncc from './UNCCboot';
-import sorbonne from './sorbonne';
-import css from './css3';
-import html from './html';
-import js from './js';
-import node from './node';
-import wp from './wp';
-import mysql from './mysql';
-import ps from './ps';
-import apollo from './apollo';
-import react from './react';
-import mongo from './mongodb';
+import uncw from './uncw.png';
+import uncc from './UNCCboot.png';
+import sorbonne from './sorbonne.png';
+import css from './css3.png';
+import html from './html.png';
+import js from './js.png';
+import node from './node.png';
+import wp from './wp.png';
+import mysql from './mysql.png';
+import ps from './ps.png';
+import apollo from './apollo.png';
+import react from './react.png';
+import mongo from './mongodb.png';
 
 const Resume = () => {
   return (
@@ -22,7 +22,7 @@ const Resume = () => {
         type='button'
         onClick={(e) => {
           e.preventDefault();
-          window.location.href = 'https://drive.google.com/file/d/15hKAaih5YSS3W4DC3xoZRBBGSyNLta_j/view?usp=sharing';
+          window.location.href = 'https://drive.google.com/file/d/15hKAaih5YSS3W4DC3xoZRBBGSyNLta_j/view?usp=sharing.png';
         }}>
         Download My Resume
       </button>
