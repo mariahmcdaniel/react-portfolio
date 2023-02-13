@@ -1,11 +1,11 @@
 import React from 'react';
 import './style.css'
-import yaheard from './../images/yaheard.png';
-import simmer from './../images/simmer.png';
-import weather from './../images/weather.png';
-import planner from './../images/planner.png';
-import pw from './../images/pw.png';
-import note from './../images/note.png';
+import yaheard from './yaheard.png';
+import simmer from './simmer.png';
+import weather from './weather.png';
+import planner from './planner.png';
+import pw from './pw.png';
+import note from './note.png';
 
 function ProjectDisplay(){
 const data = [

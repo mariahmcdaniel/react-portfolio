@@ -1,17 +1,17 @@
 import './style.css'
-import uncw from './../images/uncw';
-import uncc from './../images/UNCCboot';
-import sorbonne from './../images/sorbonne';
-import css from './../images/css3';
-import html from './../images/html';
-import js from './../images/js';
-import node from './../images/node';
-import wp from './../images/wp';
-import mysql from './../images/mysql';
-import ps from './../images/ps';
-import apollo from './../images/apollo';
-import react from './../images/react';
-import mongo from './../images/mongodb';
+import uncw from './uncw';
+import uncc from './UNCCboot';
+import sorbonne from './sorbonne';
+import css from './css3';
+import html from './html';
+import js from './js';
+import node from './node';
+import wp from './wp';
+import mysql from './mysql';
+import ps from './ps';
+import apollo from './apollo';
+import react from './react';
+import mongo from './mongodb';
 
 const Resume = () => {
   return (

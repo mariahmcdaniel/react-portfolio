@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import me from '../images/me.png'
+import me from './me.png'
 
 export default function About() {
   return (

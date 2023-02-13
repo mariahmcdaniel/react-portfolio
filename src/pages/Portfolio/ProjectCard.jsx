@@ -1,5 +1,5 @@
 import React from 'react';
-import Portfolio from './Portfolio';
+import Portfolio from '.';
 import './style.css';
 
 export default function ProjectCard() {

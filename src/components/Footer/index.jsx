@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
-import git from '../../images/git.png';
-import linked from '../../images/linked.png';
-import insta from '../../images/insta.png';
+import git from './git.png';
+import linked from './linked.png';
+import insta from './insta.png';
 
 const Footer = () => {
   const year = new Date().getFullYear();
