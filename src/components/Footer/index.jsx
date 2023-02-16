@@ -15,8 +15,8 @@ const Footer = () => {
           src={git}
           alt='my github' /></a>
       <a href="https://www.linkedin.com/in/mariah-mcdaniel-607895251/"><img
-          id={linked}
-          src='/linked.pn'
+          id='linked'
+          src={linked}
           alt='my linkedin' /></a>
       <a href="https://instagram.com/mar____iah?igshid=YmMyMTA2M2Y="><img
           id='insta'
