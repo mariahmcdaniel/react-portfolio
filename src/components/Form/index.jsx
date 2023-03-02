@@ -51,7 +51,7 @@ function Form() {
     alert(`Hello ${name}`);
 
     
-    setname('');
+    setName('');
     setMessage('');
     setEmail('');
   };
